@@ -293,14 +293,12 @@ h2{
         width:25rem;
         font-size: 1rem;
     }
-
+    .container-about{
+        height: 115%;
+        padding:1rem;
+    }
     .two_col_list{
         column-count:1;
-    }
-
-    .container-about{
-        height: 110%;
-        padding:1rem;
     }
 
     .contact-text {
@@ -312,6 +310,11 @@ h2{
     }
 }
 
+@media(max-width:475px){
+    .container-about{
+        height: 125%;
+    }
+}
 @media(max-width:450px){
     .comp{
         width:22rem;
