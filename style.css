@@ -136,14 +136,6 @@ h2{
 
 /* ABOUT SECTION END */
 
-/* TIMELINE SECTION START */
-
-.container-timeline{
-
-}
-
-/* TIMELINE SECTION END */
-
 /* CONTACT SECTION START */
 
 .container-contact{
@@ -239,7 +231,7 @@ h2{
 @media(max-width:875px){
     .comp{
         width: 40rem;
-        font-size: 1.05rem;
+        font-size: 1.15rem;
     }
     .title-text{
         font-size: 5rem;
@@ -253,18 +245,18 @@ h2{
     h1{
         font-size: 3rem;
     }
+    .about-text{
+        padding: 2.5rem;
+    }
 }
 
 @media(max-width:725px){
     .comp{
         width: 33rem;
-        font-size: 1rem;
     }
-
     .contact-text {
         font-size: 5rem;
     }
-    
     .my-email {
         font-size: 1.1rem;
     }
@@ -272,15 +264,19 @@ h2{
     .title-text{
         font-size: 4.5rem;
     }
+   
 }
 
 @media(max-width:600px){
     .comp{
         width:29rem;
-        font-size: 1rem;
+        font-size: 1.075rem;
     }
     .title-text{
         font-size: 3.75rem;
+    }
+    .about-text{
+        padding: 1.5rem;
     }
 }
 
@@ -295,7 +291,7 @@ h2{
 
     .comp{
         width:25rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .two_col_list{
@@ -303,7 +299,7 @@ h2{
     }
 
     .container-about{
-        height: 115%;
+        height: 110%;
         padding:1rem;
     }
 
@@ -319,11 +315,11 @@ h2{
 @media(max-width:450px){
     .comp{
         width:22rem;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
-
     .container-about{
-        height: 125%;
+        height: 120%;
+        padding:1rem;
     }
     .title-text{
         font-size: 3.25rem;
@@ -336,7 +332,9 @@ h2{
 @media(max-width:400px){
     .comp{
         width:20rem;
-        font-size: 0.75rem;
+    }
+    .container-about{
+        height: 130%;
     }
     .title-text{
         font-size: 2.9rem;
@@ -346,6 +344,9 @@ h2{
 @media(max-width:350px){
     .comp{
         width:18rem;
+    }
+    .container-about{
+        height: 140%;
     }
     .title-text{
         font-size: 2.15rem;
