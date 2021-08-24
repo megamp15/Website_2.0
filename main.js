@@ -197,7 +197,7 @@ TypeWriter2.prototype.type2 = function(){
   this.txtElement.style.removeProperty('border-right');
 
   // Initial Type Speed
-  let typeSpeed = 300;
+  let typeSpeed = 275;
 
   // If word is complete
   if( this.txt==fullTxt){
