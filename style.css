@@ -239,7 +239,7 @@ h2{
 }
 
 @media(max-width:725px){
-    .container-home, .container-about{
+    .container-about{
         padding: 1rem 1rem;
     }
     .contact-text {
