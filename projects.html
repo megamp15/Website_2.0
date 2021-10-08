@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" projects.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark flex-row-reverse">
+        <ul class="nav navbar-nav flex-row float-right">
+            <li class="nav-item"><a href="index.html" class="nav-link pr-3">HOME</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link pr-3">ABOUT</a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link pr-3">EXPERIENCE</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link pr-3">PROJECTS</a></li>
+        </ul>
+    </nav>
+     <!-- Projects -->
+     <div class="project">
+        <h1 class="col=12 project-text text-center">PROJECTS</h1>
+        <div class=" container-fluid col-12 text-center myBtnContainer">
+            <button type="button" class="btn  btn-outline-secondary all my-active"
+                onclick="filterSelection('all')">Show All</button>
+            <button type="button" class="btn  btn-outline-secondary python "
+                onclick="filterSelection('python')">Python</button>
+            <button type="button" class="btn  btn-outline-secondary other" onclick="filterSelection('other')">Other
+            </button>
+        </div>
+        <div class="matrix">
+            <div class=proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Lottery Information Downloader</h5>
+                        <a href="https://github.com/megamp15/LotteryInformationDownloader" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Proprietary software of Zbottomline LLC to automate the retrieval of
+                            lottery information for retail store clients. Includes a GUI for ease of use and
+                            packaged for easy installation.</p>
+                        <p class="card-languages">Python Selenium</p>
+                    </div>
+                </div>
+            </div>
+            <div class=proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Imbalanced Machine Learning</h5>
+                        <a href="https://github.com/megamp15/ImbalancedMNISTData" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Created a Convolutional Neural Network, Logistic Regression, and Random
+                            Forest models to classify step and linear imbalanced handwritten digits from the MNIST
+                            image dataset to an accuracy of 99%.</p>
+                        <p class="card-languages">Python Scikit-learn</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Aggienova animation summary of supernovae</h5>
+                        <a href="https://github.com/pbrown801/aggienova-templates/blob/master/python/spec_animation.py"
+                            target="_blank"><i class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Developed an animation showing Flux vs Wavelength, Magnitude vs Time,
+                            and photometric images of the supernova (if available) for any supernovae that is run
+                            through the Aggienova pipeline.</p>
+                        <p class="card-languages">Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj other">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Aggienova Research Website</h5>
+                        <a href="https://megamp15.github.io/Aggienova_Website/" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Created research website for Aggienova hosted using Github Pages.</p>
+                        <p class="card-languages">HTML CSS JS </p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Aggienova SED (Spectral Energy Distribution) Maker</h5>
+                        <a href="https://github.com/pbrown801/SEDmaker/tree/Mahir" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Creating spectral energy distributions (SED) from astronomical spectra
+                            data using various python modules.</p>
+                        <p class="card-languages">Python</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Discord Bot</h5>
+                        <a href="https://github.com/rynbhuiya/DiscordBotContest" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Utilized python and the discord library to create an automated driver
+                            for three distinct games:
+                            Tic-Tac-Toe, Rock-Paper-Scissors, Number-game.</p>
+                        <p class="card-languages">Python Discord API.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Supernova Manipulation Script</h5>
+                        <a href="https://github.com/pbrown801/aggienova-templates/blob/master/images/manipulate_nova_data.py"
+                            target="_blank"><i class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">
+                            Developed a program to automate the retrieval of supernovae fits files from an archive
+                            and manipulate them into a data frame used for further processing.
+                        </p>
+                        <p class="card-languages">Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Cache Simulator</h5>
+                        <a href="https://github.com/megamp15/Cache-Simulator" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">This program simulates a cache with various replacement/hit policies
+                            and other functions in a high-level language, Python.</p>
+                        <p class="card-languages">Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Aggienova Smoothing Script</h5>
+                        <a href="https://github.com/megamp15/Aggienova_Spring2019" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Created a smoothing script for image files to improve image quality.
+                        </p>
+                        <p class="card-languages">Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj python">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Pong - Final Project</h5>
+                        <a href="https://github.com/megamp15/ENGR_102-Pong" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Created a pong game using python practices learned in Engineering Lab
+                            1, Fall 2018. </p>
+                        <p class="card-languages">Python</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proj other">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Groups Creator - Final Project</h5>
+                        <a href="https://github.com/megamp15/CSCE_314-Groups_Creator" target="_blank"><i
+                                class="link fa-lg fas fa-external-link-alt"></i></a>
+                        <p class="card-text">Creates pairs of students based on responses from a survey using Java
+                            learned in Programming Languages, Spring 2020. </p>
+                        <p class="card-languages">Java</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Footer -->
+     <section class="container-fluid footer footer-projects">
+        <p>MAHIR PIRMOHAMMED &copy;
+            <script>document.write(new Date().getFullYear())</script>
+        </p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

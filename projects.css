@@ -1,0 +1,82 @@
+
+/* Portfolio Projects */
+
+.matrix{
+    margin: auto 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+}
+
+.project {
+    background-color: #232931;
+    min-height: 100vh;
+    color: #dfdfdf;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+.project-text {
+    text-align: center;
+    font-size: 6rem;
+    color:#3b3f46;
+    position: relative;
+    z-index: 0;
+    font-family: 'Orbitron', 'sans-serif';
+}
+
+.card {
+    margin: 10px auto;
+    height: 300px;
+    width: 100%;
+    background-color: #2a3037;
+}
+
+.link {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.card h5{
+    color: #4ecca3;
+    font-size: 1.5rem;
+}
+
+.card-languages{
+    position: absolute;
+    bottom: 0 ;
+    left: 10;
+    color: #54585f;
+}
+
+.card-body a {
+   color: #54585f;
+}
+
+.card-body a:hover {
+    color: #4ecca3;
+}
+
+.myBtnContainer{
+    margin-bottom: 10px;
+}
+
+.myBtnContainer button {
+    padding: .5vw 3vw;
+    font-weight: 500;
+}
+
+.myBtnContainer button:hover {
+    color: black;
+    background-color: #4ecca3
+}
+
+.my-active {
+    border: 3px solid #4ecca3;
+    /* background-color: #4ecca3; */
+}
+
+.footer-projects{
+    margin-top: 100px;
+}
