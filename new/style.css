@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #fafafa #232931;
+}
+
+:root {
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  color: #ccc;
+  font-family: "Orbitron", "sans-serif";
+}
+
+/* Nav Bar */
+.nav-link {
+  font-size: 1.0em !important;
+  color: #4ecca3;
+}
+.nav-link:hover{
+  animation: nav-hover .75s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nav-hover{
+  0%{color: #4ecca3;}
+  100%{color: #dfdfdf;}
+}
+
+/* Background grid */
+.grid {
+  position: absolute;
+  left: 0%;
+  /* top: auto; */
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  height: 75vh;
+  perspective: 51vh;
+}
+
+.grid-lines {
+  /* background-color: #4ecca3; */
+  background-image: linear-gradient(
+      to right,
+      #4ecca3 1px,
+      transparent 0
+    ),
+    linear-gradient(
+      to bottom,
+      #4ecca3 1px,
+      transparent 0
+    );
+  background-size: 4vh 3vh;
+  background-repeat: repeat;
+  transform-origin: 100% 0 0;
+  animation: play 35s linear infinite;
+  z-index: 0;
+  height: 150vh;
+  overflow: hidden;
+}
+
+@keyframes play {
+  0% {
+    transform: rotateX(45deg) translateY(-50%);
+  }
+  100% {
+    transform: rotateX(45deg) translateY(0);
+  }
+}
+
+.grid-mask {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #111), to(transparent)), radial-gradient(circle farthest-corner at 50% 0%, transparent 50%, #111 90%);
+    background-image: linear-gradient(180deg, #111 25%, transparent), radial-gradient(circle farthest-corner at 50% 0%, transparent 50%, #111 90%);
+}
